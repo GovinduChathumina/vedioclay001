@@ -69,13 +69,13 @@ class NavbarV2 extends Component {
 				      </div>
 				      <div className="collapse navbar-collapse" id="dkt_main_menu">
 				        <ul className="navbar-nav menu-open">
-				          <li className="menu-item-has-children current-menu-item">
-				            <a href="#">Home</a>
-				            <ul className="sub-menu">
-				              <li><Link to="/">Home 01</Link></li>
-				              <li><Link to="/home-v2">Home 02</Link></li>
-				            </ul>
-				          </li>
+				          {/* <li className="menu-item-has-children current-menu-item"> */}
+				            {/* <a href="#">Home</a>
+				            <ul className="sub-menu"> */}
+				              {/* <li><Link to="/">Home 01</Link></li> */}
+				              <li><Link to="/home-v2">Home</Link></li>
+				            {/* </ul> */}
+				          {/* </li> */}
 				          <li><Link to="/product">Product</Link></li>
 				          <li className="menu-item-has-children current-menu-item">
 				            <a href="#">Pages</a>

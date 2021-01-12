@@ -24,8 +24,8 @@ class Root extends Component {
                 <HashRouter basename="/">
 	                <div>
 	                <Switch>
-	                    <Route exact path="/" component={HomeV1} />
-	                    <Route  path="/home-v2" component={HomeV2} />
+	                    <Route exact path="/" component={HomeV2} />
+	                    <Route  path="/home-v2" component={HomeV1} />
 	                    <Route  path="/product" component={Product} />
 	                    <Route  path="/product-details" component={ProductDetails} />
 	                    <Route  path="/vendor" component={Vendor} />
