@@ -76,9 +76,8 @@ class NavbarV2 extends Component {
 				              <li><Link to="/home-v2">Home</Link></li>
 				            {/* </ul> */}
 				          {/* </li> */}
-				          <li><Link to="/product">Product</Link></li>
-				          <li className="menu-item-has-children current-menu-item">
-				            <a href="#">Pages</a>
+						  <li className="menu-item-has-children current-menu-item">
+				            <a href="#">Templates</a>
 				            <ul className="sub-menu">
 				              <li><Link to="/product">Product</Link></li>
 				              <li><Link to="/product-details">Product Details</Link></li>
@@ -91,20 +90,24 @@ class NavbarV2 extends Component {
 				              <li><Link to="/sign-up">Sign Up</Link></li>
 				            </ul>
 				          </li>
-				          <li className="menu-item-has-children current-menu-item">
-				           <Link to="/blog">Blog</Link>
+						  <li className="menu-item-has-children current-menu-item">
+				           <Link to="/blog">Learn</Link>
 				            <ul className="sub-menu">
 				              <li><Link to="/blog">Blog Standard</Link></li>
 				              <li><Link to="/blog-details">Blog Details</Link></li>
 				            </ul>
 				          </li>
+				          <li><Link to="/product">Pricing</Link></li>
 				          <li><Link to="/contact">Contact</Link></li>
 				        </ul>
 				      </div>
 				      <div className="nav-right-part nav-right-part-desktop">
 				        <ul>
-				          <li><a href="#"><img src={publicUrl+"assets/img/icon/2m.png"} alt="icon" />0 Items</a></li>
-				          <li><a className="search" href="#"><img src={publicUrl+"assets/img/icon/1b.png"} alt="icon" /></a></li>
+				          {/* <li><a href="#"><img src={publicUrl+"assets/img/icon/2m.png"} alt="icon" />0 Items</a></li> */}
+				          {/* <div className="btn-wrap"> */}
+			              <Link className="btn btn-base" to="/product">Get Unlimited Downloads</Link>
+			            {/* </div>    */}
+						  <li><a className="search" href="#"><img src={publicUrl+"assets/img/icon/1b.png"} alt="icon" /></a></li>
 				          <li className="menu-bar dropdown-menu-btn"><i className="fa fa-bars" /></li>
 				        </ul>
 				      </div>
