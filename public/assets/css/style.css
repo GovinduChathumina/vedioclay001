@@ -2509,7 +2509,7 @@ ul {
   margin-top: 35px;
 }
 .banner-inner .btn-wrap .btn {
-  background: #14b1ab;
+  background: var(--heading-color);
   height: 50px;
   line-height: 50px;
   padding: 0 55px;

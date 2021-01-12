@@ -62,7 +62,7 @@ class NavbarV2 extends Component {
 				        </button>
 				      </div>
 				      <div className="logo">
-				        <Link className="main-logo" to="/"><img src={publicUrl+"assets/img/logo5.jpg"} alt="img" /></Link>
+				        <Link className="main-logo" to="/"><img src={publicUrl+"assets/img/logo5.jpg"} alt="img" width="200px" height="100px" /></Link>
 				      </div>
 				      <div className="nav-right-part nav-right-part-mobile">
 				        <a className="btn btn-base" href="#">Sign in</a>
