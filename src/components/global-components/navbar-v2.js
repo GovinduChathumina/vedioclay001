@@ -62,7 +62,7 @@ class NavbarV2 extends Component {
 				        </button>
 				      </div>
 				      <div className="logo">
-				        <Link className="main-logo" to="/"><img src={publicUrl+"assets/img/logo5.jpg"} alt="img" width="200px" height="100px" /></Link>
+				        <Link className="main-logo" to="/"><img src={publicUrl+"assets/img/logo5.jpg"} alt="img" width="150px" height="100px" /></Link>
 				      </div>
 				      <div className="nav-right-part nav-right-part-mobile">
 				        <a className="btn btn-base" href="#">Sign in</a>
@@ -108,7 +108,7 @@ class NavbarV2 extends Component {
 			              <Link className="btn btn-base" to="/product">Get Unlimited Downloads</Link>
 			            {/* </div>    */}
 						  <li><a className="search" href="#"><img src={publicUrl+"assets/img/icon/1b.png"} alt="icon" /></a></li>
-				          <li className="menu-bar dropdown-menu-btn"><i className="fa fa-bars" /></li>
+				          {/* <li className="menu-bar dropdown-menu-btn"><i className="fa fa-bars" /></li> */}
 				        </ul>
 				      </div>
 				    </div>

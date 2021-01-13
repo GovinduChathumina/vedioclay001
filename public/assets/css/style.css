@@ -571,6 +571,9 @@ ul {
   color: #fff;
   border: 0;
   background:#0D1741;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
 }
 .btn-base:before {
   content: "";
@@ -2215,6 +2218,7 @@ ul {
 
 .nav-right-part-desktop {
   margin-left: 40px;
+  padding-left:40px;
 }
 
 .nav-right-part-mobile {
