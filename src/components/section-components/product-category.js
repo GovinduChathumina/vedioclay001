@@ -15,7 +15,7 @@ class ProductCategory extends Component {
 			        <div className="all-item-section all-item-area-2">        
 			          <div className="row">
 			            {/* gallery item start here */}
-			            <div className="all-isotope-item col-lg-6 col-sm-6">
+			            <div className="all-isotope-item col-lg-5 col-sm-6">
 			              <div className="thumb">
 			                <a className="gallery-fancybox" href="#">
 			                  <img src={publicUrl+"assets/img/item/7.png"} alt="image" />
@@ -40,7 +40,7 @@ class ProductCategory extends Component {
 			                <span className="price bg-white float-right">$30.00</span>
 			              </div>
 			            </div>
-			            <div className="all-isotope-item col-lg-6 col-sm-6">
+			            <div className="all-isotope-item col-lg-5 col-sm-6">
 			              <div className="thumb">
 			                <a className="gallery-fancybox" href="#">
 			                  <img src={publicUrl+"assets/img/item/8.png"} alt="image" />
@@ -65,7 +65,7 @@ class ProductCategory extends Component {
 			                <span className="price bg-white float-right">$30.00</span>
 			              </div>
 			            </div>
-			            <div className="all-isotope-item col-lg-6 col-sm-6">
+			            <div className="all-isotope-item col-lg-5 col-sm-6">
 			              <div className="thumb">
 			                <a className="gallery-fancybox" href="#">
 			                  <img src={publicUrl+"assets/img/item/9.png"} alt="image" />
@@ -90,7 +90,7 @@ class ProductCategory extends Component {
 			                <span className="price bg-white float-right">$30.00</span>
 			              </div>
 			            </div>
-			            <div className="all-isotope-item col-lg-6 col-sm-6">
+			            <div className="all-isotope-item col-lg-5 col-sm-6">
 			              <div className="thumb">
 			                <a className="gallery-fancybox" href="#">
 			                  <img src={publicUrl+"assets/img/item/10.png"} alt="image" />
@@ -115,7 +115,7 @@ class ProductCategory extends Component {
 			                <span className="price bg-white float-right">$30.00</span>
 			              </div>
 			            </div>
-			            <div className="all-isotope-item col-lg-6 col-sm-6">
+			            <div className="all-isotope-item col-lg-5 col-sm-6">
 			              <div className="thumb">
 			                <a className="gallery-fancybox" href="#">
 			                  <img src={publicUrl+"assets/img/item/11.png"} alt="image" />
@@ -140,7 +140,7 @@ class ProductCategory extends Component {
 			                <span className="price bg-white float-right">$30.00</span>
 			              </div>
 			            </div>
-			            <div className="all-isotope-item col-lg-6 col-sm-6">
+			            <div className="all-isotope-item col-lg-5 col-sm-6">
 			              <div className="thumb">
 			                <a className="gallery-fancybox" href="#">
 			                  <img src={publicUrl+"assets/img/item/12.png"} alt="image" />
@@ -177,7 +177,7 @@ class ProductCategory extends Component {
 			          </ul>
 			        </div>
 			      </div>
-			      <div className="col-lg-4 order-lg-first go-top">
+			      <div className="col-lg-3 order-lg-first go-top">
 			        <div className="sidebar-area">
 			          <div className="widget widget-category widget-border">
 			            <h5 className="widget-title">Category</h5>
