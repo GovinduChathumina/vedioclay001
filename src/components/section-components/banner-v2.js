@@ -15,7 +15,7 @@ class BannerV2 extends Component {
 			      <div className="row justify-content-center">
 			        <div className="col-lg-8 align-self-center">
 			          <div className="banner-inner">
-			            <h2>Simple Video Templates for <span>Premier Pro & After Effects</span></h2>
+			            <h2>Tiny Simple <span>Video Assets</span></h2>
 			            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
 			            <div className="btn-wrap">
 			              <Link className="btn btn-base" to="/product">All Items</Link>
