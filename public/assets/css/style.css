@@ -2030,10 +2030,10 @@ ul {
   background: #27debf;
 }
 .navbar-area.navbar-area-2 .nav-container .navbar-collapse .navbar-nav li:hover a {
-  color: #14b1ab;
+  color: #FFB447;
 }
 .navbar-area.navbar-area-2 .nav-container .navbar-collapse .navbar-nav li a {
-  color:  #0D1741;
+  color:  #14b1ab;
   font-weight: 500;
 }
 
@@ -3976,6 +3976,6 @@ footer .widget {
   border: 1px solid rgba(73, 0, 155, 0.2);
 }
 .footer-area-2 .copyright-area .social-area li a:hover {
-  background: #14b1ab;
+  background: #FFB447;
   color: #ffffff;
 }

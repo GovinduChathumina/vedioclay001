@@ -182,12 +182,28 @@ class ProductCategory extends Component {
 			          <div className="widget widget-category widget-border">
 			            <h5 className="widget-title">Category</h5>
 			            <ul>
-			              <li><Link to="/product">Financial Planning<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Relationship Buildup<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Investement Planning<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Marketing Strategy<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Product Strategy<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">Broadcast Packages<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">Elements<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">Infographics<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">Logo Stings<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">Openers<i className="la la-angle-right" /></Link></li>
 			            </ul>
+			          </div>
+					  <div className="widget widget-category widget-border">
+			            <h5 className="widget-title">Applications Supported</h5>
+			            <ul>
+			              <li><Link to="/product">Premier Pro<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">After Effects<i className="la la-angle-right" /></Link></li>
+			            </ul>
+			          </div>
+					  <div className="widget widget-product-sorting widget-border">
+			            <h5 className="widget-title">Filter by duration</h5>
+			            <div className="slider-product-sorting" />
+			            <div className="product-range-detail">
+			              <button>Filter</button>
+			              <input className="float-right" type="text" id="amount" readOnly />
+			              <label className="float-right" htmlFor="amount">Duration:</label>
+			            </div>
 			          </div>
 			          <div className="widget widget-product-sorting widget-border">
 			            <h5 className="widget-title">Filter by price</h5>
