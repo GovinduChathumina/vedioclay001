@@ -571,9 +571,7 @@ ul {
   color: #fff;
   border: 0;
   background:#0D1741;
-  height:40px;
-  line-height: 40px;
-  text-align: center;
+  height:60px;
 }
 .btn-base:before {
   content: "";
@@ -583,7 +581,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #14b1ab;
+  background: #FFB447;
   transform: scaleX(0);
   transform-origin: 0 50%;
   transition-duration: 0.4s;
@@ -592,6 +590,34 @@ ul {
   color: #fff;
 }
 .btn-base:hover:before, .btn-base:focus:before {
+  transform: scaleX(1);
+}
+
+.btn-bases {
+  color: #fff;
+  border: 0;
+  background:#0D1741;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+}
+.btn-bases:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FFB447;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-duration: 0.4s;
+}
+.btn-bases:hover, .btn-base:focus {
+  color: #fff;
+}
+.btn-bases:hover:before, .btn-base:focus:before {
   transform: scaleX(1);
 }
 
@@ -610,7 +636,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #14b1ab;
+  background: #FFB447;
   transform: scaleX(0);
   transform-origin: 0 50%;
   transition-duration: 0.4s;

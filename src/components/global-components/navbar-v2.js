@@ -105,7 +105,7 @@ class NavbarV2 extends Component {
 				        <ul>
 				          {/* <li><a href="#"><img src={publicUrl+"assets/img/icon/2m.png"} alt="icon" />0 Items</a></li> */}
 				          {/* <div className="btn-wrap"> */}
-			              <Link className="btn btn-base" to="/product">Get Unlimited Downloads</Link>
+			              <Link className="btn btn-bases" to="/product">Get Unlimited Downloads</Link>
 			            {/* </div>    */}
 						  <li><a className="search" href="#"><img src={publicUrl+"assets/img/icon/1b.png"} alt="icon" /></a></li>
 				          {/* <li className="menu-bar dropdown-menu-btn"><i className="fa fa-bars" /></li> */}
