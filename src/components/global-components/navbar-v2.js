@@ -62,7 +62,7 @@ class NavbarV2 extends Component {
 				        </button>
 				      </div>
 				      <div className="logo">
-				        <Link className="main-logo" to="/"><img src={publicUrl+"assets/img/logo5.jpg"} alt="img" width="150px" height="100px" /></Link>
+				        <Link className="main-logo" to="/home-v2"><img src={publicUrl+"assets/img/logo5.jpg"} alt="img" width="150px" height="100px" /></Link>
 				      </div>
 				      <div className="nav-right-part nav-right-part-mobile">
 				        <a className="btn btn-base" href="#">Sign in</a>
@@ -73,11 +73,11 @@ class NavbarV2 extends Component {
 				            {/* <a href="#">Home</a>
 				            <ul className="sub-menu"> */}
 				              {/* <li><Link to="/">Home 01</Link></li> */}
-				              <li><Link to="/home-v2">Home</Link></li>
+				              {/* <li><Link to="/home-v2">Home</Link></li> */}
 				            {/* </ul> */}
 				          {/* </li> */}
 						  <li className="menu-item-has-children current-menu-item">
-				            <a href="#">Templates</a>
+				            <a href="#">Video Templates</a>
 				            <ul className="sub-menu">
 				              <li><Link to="/product">Product</Link></li>
 				              <li><Link to="/product-details">Product Details</Link></li>
@@ -90,6 +90,7 @@ class NavbarV2 extends Component {
 				              <li><Link to="/sign-up">Sign Up</Link></li>
 				            </ul>
 				          </li>
+						  <li><Link to="/product">Motion Graphics</Link></li>
 						  <li className="menu-item-has-children current-menu-item">
 				           <Link to="/blog">Learn</Link>
 				            <ul className="sub-menu">
@@ -98,7 +99,7 @@ class NavbarV2 extends Component {
 				            </ul>
 				          </li>
 				          <li><Link to="/product">Pricing</Link></li>
-				          <li><Link to="/contact">Contact</Link></li>
+				          {/* <li><Link to="/contact">Contact</Link></li> */}
 				        </ul>
 				      </div>
 				      <div className="nav-right-part nav-right-part-desktop">
