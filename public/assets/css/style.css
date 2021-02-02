@@ -1601,6 +1601,7 @@ ul {
   font-family: var(--heading-font);
   border-bottom: 2px solid #eaeaea;
   padding: 16px 0 14px;
+  padding-left:5px;
 }
 .widget-category ul li a {
   transition: 0.4s;

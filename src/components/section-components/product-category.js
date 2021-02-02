@@ -177,15 +177,12 @@ class ProductCategory extends Component {
 			          </ul>
 			        </div>
 			      </div>
-			      <div className="col-lg-3 order-lg-first go-top">
+			      <div className="col-lg-4 order-lg-first go-top">
 			        <div className="sidebar-area">
 			          <div className="widget widget-category widget-border">
 						  
 			            <h5 className="widget-title">Category</h5>
-						<label>
-    						Search:
-						<input type="text" class="form-control"></input>
-						</label>
+						
 			            <ul>
 			              <li><Link to="/product">Broadcast Packages<i className="la la-angle-right" /></Link></li>
 			              <li><Link to="/product">Elements<i className="la la-angle-right" /></Link></li>
