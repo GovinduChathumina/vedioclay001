@@ -181,14 +181,11 @@ class ProductCategory extends Component {
 			        <div className="sidebar-area">
 			          <div className="widget widget-category widget-border">
 						  
-			            <h5 className="widget-title">Category</h5>
+			            <h5 className="widget-title">Apps</h5>
 						
 			            <ul>
-			              <li><Link to="/product">Broadcast Packages<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Elements<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Infographics<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Logo Stings<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Openers<i className="la la-angle-right" /></Link></li>
+			              <li><input type="checkbox" id="after_effects" name="after_effects" value="after_effects"/> <Link to="/product">After Effects<i className="la la-angle-right" /></Link></li>
+			              <li><input type="checkbox" id="after_effects" name="after_effects" value="after_effects"/> <Link to="/product">Premier Pro<i className="la la-angle-right" /></Link></li>
 			            </ul>
 			          </div>
 					  <div className="widget widget-category widget-border">
