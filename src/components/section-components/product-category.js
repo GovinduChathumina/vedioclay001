@@ -189,19 +189,23 @@ class ProductCategory extends Component {
 			            </ul>
 			          </div>
 					  <div className="widget widget-category widget-border">
-			            <h5 className="widget-title">Applications Supported</h5>
+			            <h5 className="widget-title">Category</h5>
 			            <ul>
-			              <li><Link to="/product">Premier Pro<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">After Effects<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">Logo<i className="la la-angle-right" /></Link></li>
+			              <li><Link to="/product">Titles<i className="la la-angle-right" /></Link></li>
+						  <li><Link to="/product">Transitions<i className="la la-angle-right" /></Link></li>
+						  <li><Link to="/product">Lower Thirds<i className="la la-angle-right" /></Link></li>
+						  <li><Link to="/product">Elements<i className="la la-angle-right" /></Link></li>
+						  <li><Link to="/product">Backgrounds<i className="la la-angle-right" /></Link></li>
 			            </ul>
 			          </div>
 					  <div className="widget widget-product-sorting widget-border">
-			            <h5 className="widget-title">Filter by duration</h5>
+			            <h5 className="widget-title">Resolution</h5>
 			            <div className="slider-product-sorting" />
 			            <div className="product-range-detail">
 			              <button>Filter</button>
 			              <input className="float-right" type="text" id="amount" readOnly />
-			              <label className="float-right" htmlFor="amount">Duration:</label>
+			              <label className="float-right" htmlFor="amount">resolution:</label>
 			            </div>
 			          </div>
 			          <div className="widget widget-product-sorting widget-border">
