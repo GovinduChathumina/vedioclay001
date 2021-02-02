@@ -208,7 +208,7 @@ class ProductCategory extends Component {
 			              <label className="float-right" htmlFor="amount">resolution:</label>
 			            </div>
 			          </div>
-			          <div className="widget widget-product-sorting widget-border">
+			          {/* <div className="widget widget-product-sorting widget-border">
 			            <h5 className="widget-title">Filter by price</h5>
 			            <div className="slider-product-sorting" />
 			            <div className="product-range-detail">
@@ -216,8 +216,8 @@ class ProductCategory extends Component {
 			              <input className="float-right" type="text" id="amount" readOnly />
 			              <label className="float-right" htmlFor="amount">Price:</label>
 			            </div>
-			          </div>
-			          <div className="widget widget-news widget-border">
+			          </div> */}
+			          {/* <div className="widget widget-news widget-border">
 			            <h5 className="widget-title">Recent News</h5>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
@@ -246,8 +246,8 @@ class ProductCategory extends Component {
 			                <h6><Link to="/blog-details">Django Highlig Models Admin Harnessing</Link></h6>
 			              </div>
 			            </div>
-			          </div>
-			          <div className="widget widget-tags widget-border">
+			          </div> */}
+			          {/* <div className="widget widget-tags widget-border">
 			            <h5 className="widget-title">Popular Tags</h5>
 			            <div className="tagcloud">
 			              <Link to="/blog-details">Business</Link>
@@ -259,7 +259,7 @@ class ProductCategory extends Component {
 			              <Link to="/blog-details">Planing</Link>
 			              <Link to="/blog-details">Creative</Link>
 			            </div>   
-			          </div>
+			          </div> */}
 			        </div>
 			      </div>
 			    </div>
