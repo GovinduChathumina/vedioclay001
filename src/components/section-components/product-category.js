@@ -147,7 +147,7 @@ class ProductCategory extends Component {
 			        <div className="pagination-wrap text-center mt-2">
 			          <ul className="pagination pagination-2">
 			            <li className="page-item"><a className="page-link" href="#"><i className="la la-angle-left" /></a></li>
-			            <li className="page-item active"><a className="page-link" href="#">01</a></li>
+			            <li className="page-item active"><a className="page-link" href="/products">01</a></li>
 			            <li className="page-item"><a className="page-link" href="#">02</a></li>
 			            <li className="page-item"><a className="page-link" href="#">03</a></li>
 			            <li className="page-item"><a className="page-link" href="#"><i className="la la-angle-right" /></a></li>
@@ -181,8 +181,8 @@ class ProductCategory extends Component {
 			            <div className="slider-product-sorting" />
 			            <div className="product-range-detail">
 			              <button>Filter</button>
-			              <input className="float-right" type="text" id="amount" readOnly />
-			              <label className="float-right" htmlFor="amount">resolution:</label>
+			              {/* <input className="float-right" type="text" id="amount" readOnly /> */}
+			              {/* <label className="float-right" htmlFor="amount">resolution:</label> */}
 			            </div>
 			          </div>
 			          {/* <div className="widget widget-product-sorting widget-border">
