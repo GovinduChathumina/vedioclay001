@@ -2,8 +2,10 @@
     ## All responsive style
 ---------------------------------------------------*/
 @media all and (min-width: 1600px) {
-	.navbar-area .nav-container {
+	.navbar-area .nav-container .navbar-area-fixed {
 		padding: 34.5px 12px;
+		#text-align:center;
+		#position:fixed;
 	}	
 	.banner-area-2 .banner-area-inner .thumb {
 		margin-top: 50px;
@@ -18,7 +20,7 @@
 }
 @media (min-width: 1200px) {
 	.container {
-	    max-width: 1170px;
+	    max-width: 1270px;
 	}
 }
 @media all and (max-width: 1599px) {
