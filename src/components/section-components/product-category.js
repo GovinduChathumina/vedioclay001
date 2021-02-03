@@ -177,26 +177,26 @@ class ProductCategory extends Component {
 			          </ul>
 			        </div>
 			      </div>
-			      <div className="col-lg-4 order-lg-first go-top">
+			      <div className="col-lg-3 order-lg-first go-top">
 			        <div className="sidebar-area">
 			          <div className="widget widget-category widget-border">
 						  
 			            <h5 className="widget-title">Apps</h5>
 						
 			            <ul>
-			              <li><input type="checkbox" id="after_effects" name="after_effects" value="after_effects"/> <Link to="/product">After Effects<i className="la la-angle-right" /></Link></li>
-			              <li><input type="checkbox" id="after_effects" name="after_effects" value="after_effects"/> <Link to="/product">Premier Pro<i className="la la-angle-right" /></Link></li>
+			              <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="after_effects" name="after_effects" value="after_effects"/><Link to="/product" style={{paddingLeft:'15px'}}>After Effects</Link></li>
+			              <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="after_effects" name="after_effects" value="after_effects"/> <Link to="/product" style={{paddingLeft:'15px'}}>Premier Pro</Link></li>
 			            </ul>
 			          </div>
 					  <div className="widget widget-category widget-border">
 			            <h5 className="widget-title">Category</h5>
 			            <ul>
-			              <li><Link to="/product">Logo<i className="la la-angle-right" /></Link></li>
-			              <li><Link to="/product">Titles<i className="la la-angle-right" /></Link></li>
-						  <li><Link to="/product">Transitions<i className="la la-angle-right" /></Link></li>
-						  <li><Link to="/product">Lower Thirds<i className="la la-angle-right" /></Link></li>
-						  <li><Link to="/product">Elements<i className="la la-angle-right" /></Link></li>
-						  <li><Link to="/product">Backgrounds<i className="la la-angle-right" /></Link></li>
+			              <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="logo" name="logo" value="logo"/><Link to="/product" style={{paddingLeft:'15px'}}>Logo</Link></li>
+			              <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="title" name="title" value="title"/><Link to="/product" style={{paddingLeft:'15px'}}>Titles</Link></li>
+						  <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="transition" name="transition" value="transition"/><Link to="/product" style={{paddingLeft:'15px'}}>Transitions</Link></li>
+						  <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="lower" name="lower" value="lower"/><Link to="/product" style={{paddingLeft:'15px'}}>Lower Thirds</Link></li>
+						  <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="element" name="element" value="element"/><Link to="/product" style={{paddingLeft:'15px'}}>Elements</Link></li>
+						  <li><input type="checkbox" style={{width:'20px',height:'20px'}} id="background" name="background" value="background"/><Link to="/product" style={{paddingLeft:'15px'}}>Backgrounds</Link></li>
 			            </ul>
 			          </div>
 					  <div className="widget widget-product-sorting widget-border">
