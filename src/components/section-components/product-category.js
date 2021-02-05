@@ -9,6 +9,14 @@ class ProductCategory extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
 
     return  <section className="blog-page-area pd-top-100 pd-bottom-100">
+		<div className="col-md-12" style={{textAlign:'left',right:'0'}}>
+			<div className="form-area text-center" style={{width:'200px'}}>
+			    <form>
+			    <input type="text" className="form-control" />
+			    {/* <button type="submit" className="btn"><img src={publicUrl+"assets/img/icon/1.png"} alt="img" /></button> */}
+			    </form>
+			    </div>
+			</div>
 			  <div className="container">
 			    <div className="row">
 			      <div className="col-lg-8 order-lg-last go-top">
@@ -24,17 +32,7 @@ class ProductCategory extends Component {
 			            <a className="btn btn-white" href="#">Live Preview</a>
 			          </div>
 			          <div className="item-details">
-			            <span className="price">$30.00</span>
-			            <span className="ratting float-right">
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star star-o" />
-			              <span>(12)</span>
-			            </span>
-			            <h4><Link to="/product-details">Kiamu</Link></h4>
-			            <p>Photography Word Press Theme</p>
+			            <span className="price">After Effects</span>
 			          </div>
 			        </div>
 			        <div className="all-isotope-item col-lg-4 col-sm-6 cat-2">
@@ -45,17 +43,7 @@ class ProductCategory extends Component {
 			            <a className="btn btn-white" href="#">Live Preview</a>
 			          </div>
 			          <div className="item-details">
-			            <span className="price">$30.00</span>
-			            <span className="ratting float-right">
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star star-o" />
-			              <span>(12)</span>
-			            </span>
-			            <h4><Link to="/product-details">Kiamu</Link></h4>
-			            <p>Photography Word Press Theme</p>
+			            <span className="price">After Effects</span>
 			          </div>
 			        </div>
 			        <div className="all-isotope-item col-lg-4 col-sm-6 cat-3 cat-2">
@@ -66,17 +54,7 @@ class ProductCategory extends Component {
 			            <a className="btn btn-white" href="#">Live Preview</a>
 			          </div>
 			          <div className="item-details">
-			            <span className="price">$30.00</span>
-			            <span className="ratting float-right">
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star star-o" />
-			              <span>(12)</span>
-			            </span>
-			            <h4><Link to="/product-details">Kiamu</Link></h4>
-			            <p>Photography Word Press Theme</p>
+			            <span className="price">Premier pro</span>
 			          </div>
 			        </div>
 			        <div className="all-isotope-item col-lg-4 col-sm-6 cat-3 cat-1">
@@ -87,17 +65,7 @@ class ProductCategory extends Component {
 			            <a className="btn btn-white" href="#">Live Preview</a>
 			          </div>
 			          <div className="item-details">
-			            <span className="price">$30.00</span>
-			            <span className="ratting float-right">
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star star-o" />
-			              <span>(12)</span>
-			            </span>
-			            <h4><Link to="/product-details">Kiamu</Link></h4>
-			            <p>Photography Word Press Theme</p>
+			            <span className="price">Premier pro</span>
 			          </div>
 			        </div>
 			        <div className="all-isotope-item col-lg-4 col-sm-6 cat-2 cat-1">
@@ -108,17 +76,7 @@ class ProductCategory extends Component {
 			            <a className="btn btn-white" href="#">Live Preview</a>
 			          </div>
 			          <div className="item-details">
-			            <span className="price">$30.00</span>
-			            <span className="ratting float-right">
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star star-o" />
-			              <span>(12)</span>
-			            </span>
-			            <h4><Link to="/product-details">Kiamu</Link></h4>
-			            <p>Photography Word Press Theme</p>
+			            <span className="price">After Effects</span>
 			          </div>
 			        </div>
 			        <div className="all-isotope-item col-lg-4 col-sm-6 cat-1 cat-2">
@@ -129,17 +87,7 @@ class ProductCategory extends Component {
 			            <a className="btn btn-white" href="#">Live Preview</a>
 			          </div>
 			          <div className="item-details">
-			            <span className="price">$30.00</span>
-			            <span className="ratting float-right">
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star" />
-			              <i className="fa fa-star star-o" />
-			              <span>(12)</span>
-			            </span>
-			            <h4><Link to="/product-details">Kiamu</Link></h4>
-			            <p>Photography Word Press Theme</p>
+			            <span className="price">Premier pro</span>
 			          </div>
 			        </div>
 			      </div>
