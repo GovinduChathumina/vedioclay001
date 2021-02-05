@@ -9,14 +9,14 @@ class ProductCategory extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
 
     return  <section className="blog-page-area pd-top-100 pd-bottom-100">
-		<div className="col-md-12" style={{textAlign:'left',right:'0'}}>
+		{/* <div className="col-md-12" style={{textAlign:'left',right:'0'}}>
 			<div className="form-area text-center" style={{width:'200px'}}>
 			    <form>
-			    <input type="text" className="form-control" />
+			    <input type="text" className="form-control" /> */}
 			    {/* <button type="submit" className="btn"><img src={publicUrl+"assets/img/icon/1.png"} alt="img" /></button> */}
-			    </form>
+			    {/* </form>
 			    </div>
-			</div>
+			</div> */}
 			  <div className="container">
 			    <div className="row">
 			      <div className="col-lg-8 order-lg-last go-top">
