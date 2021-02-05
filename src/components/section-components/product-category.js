@@ -90,6 +90,39 @@ class ProductCategory extends Component {
 			            <span className="price">Premier pro</span>
 			          </div>
 			        </div>
+					<div className="all-isotope-item col-lg-4 col-sm-6 cat-1 cat-2">
+			          <div className="thumb">
+			            <a className="gallery-fancybox" href="#">
+			              <img src={publicUrl+"assets/img/item/6.png"} alt="image" />
+			            </a>
+			            <a className="btn btn-white" href="#">Live Preview</a>
+			          </div>
+			          <div className="item-details">
+			            <span className="price">Premier pro</span>
+			          </div>
+			        </div>
+					<div className="all-isotope-item col-lg-4 col-sm-6 cat-1 cat-2">
+			          <div className="thumb">
+			            <a className="gallery-fancybox" href="#">
+			              <img src={publicUrl+"assets/img/item/6.png"} alt="image" />
+			            </a>
+			            <a className="btn btn-white" href="#">Live Preview</a>
+			          </div>
+			          <div className="item-details">
+			            <span className="price">Premier pro</span>
+			          </div>
+			        </div>
+					<div className="all-isotope-item col-lg-4 col-sm-6 cat-1 cat-2">
+			          <div className="thumb">
+			            <a className="gallery-fancybox" href="#">
+			              <img src={publicUrl+"assets/img/item/6.png"} alt="image" />
+			            </a>
+			            <a className="btn btn-white" href="#">Live Preview</a>
+			          </div>
+			          <div className="item-details">
+			            <span className="price">Premier pro</span>
+			          </div>
+			        </div>
 			      </div>
 			    </div>
 			        <div className="pagination-wrap text-center mt-2">
