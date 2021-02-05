@@ -19,7 +19,7 @@ class ProductCategory extends Component {
 			</div> */}
 			  <div className="container">
 			    <div className="row">
-			      <div className="col-lg-8 order-lg-last go-top">
+			      <div className="col-lg-9 order-lg-last go-top">
 				  <div className="all-item-section go-top">        
 			      <div className="item-isotope row">
 			        <div className="item-sizer col-1" />
