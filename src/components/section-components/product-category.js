@@ -9,6 +9,12 @@ class ProductCategory extends Component {
 		this.state = {
 			chkAfterEffects: false,
 			chkPremierPro:false,
+			chkLogo:false,
+			chkTitle:false,
+			chkTransitions:false,
+			chkLower:false,
+			chkElement:false,
+			chkBackground:false,
 		  	numberOfGuests: 2,
 		  	tutorials: [],
 			currentTutorial: null,
@@ -37,47 +43,111 @@ class ProductCategory extends Component {
 		if(name=="after_effects"){
 			cat_id="60106addf83a155344bf3edb";
 			this.setState({
-				cat_name:"After Effects"
+				cat_name:"After Effects",
+				chkAfterEffects:true,
+				chkPremierPro:false,
+				chkLogo:false,
+				chkTitle:false,
+				chkTransitions:false,
+				chkLower:false,
+				chkElement:false,
+				chkBackground:false
 			})
 		}else if(name=="premier_pro"){
 			cat_id="601073434b0146303c10d68f";
 			this.setState({
-				cat_name:"Premier Pro"
+				cat_name:"Premier Pro",
+				chkPremierPro:true,
+				chkAfterEffects:false,
+				chkLogo:false,
+				chkTitle:false,
+				chkTransitions:false,
+				chkLower:false,
+				chkElement:false,
+				chkBackground:false
 			})
 		}else if(name=="logo"){
 			cat_id="603426b71e83a23bd40c0f82";
 			this.setState({
-				cat_name:"Logo"
+				cat_name:"Logo",
+				chkLogo:true,
+				chkAfterEffects:false,
+				chkPremierPro:false,
+				chkTitle:false,
+				chkTransitions:false,
+				chkLower:false,
+				chkElement:false,
+				chkBackground:false
 			})
 		}else if(name=="title"){
 			cat_id="603426ca1e83a23bd40c0f83";
 			this.setState({
-				cat_name:"Titles"
+				cat_name:"Titles",
+				chkTitle:true,
+				chkAfterEffects:false,
+				chkPremierPro:false,
+				chkLogo:false,
+				chkTransitions:false,
+				chkLower:false,
+				chkElement:false,
+				chkBackground:false
 			})
 		}else if(name=="transition"){
 			cat_id="603426db1e83a23bd40c0f84";
 			this.setState({
-				cat_name:"Transition"
+				cat_name:"Transition",
+				chkTransitions:true,
+				chkAfterEffects:false,
+				chkPremierPro:false,
+				chkLogo:false,
+				chkTitle:false,
+				chkLower:false,
+				chkElement:false,
+				chkBackground:false
 			})
 		}else if(name=="lower"){
 			cat_id="603426f91e83a23bd40c0f85";
 			this.setState({
-				cat_name:"Lower Thirds"
+				cat_name:"Lower Thirds",
+				chkLower:true,
+				chkAfterEffects:false,
+				chkPremierPro:false,
+				chkLogo:false,
+				chkTitle:false,
+				chkTransitions:false,
+				chkElement:false,
+				chkBackground:false
 			})
 		}else if(name=="element"){
 			cat_id="603427031e83a23bd40c0f86";
 			this.setState({
-				cat_name:"Elements"
+				cat_name:"Elements",
+				chkElement:true,
+				chkAfterEffects:false,
+				chkPremierPro:false,
+				chkLogo:false,
+				chkTitle:false,
+				chkTransitions:false,
+				chkLower:false,
+				chkBackground:false
 			})
 		}else if(name=="background"){
 			cat_id="6034270d1e83a23bd40c0f87";
 			this.setState({
-				cat_name:"Backgrounds"
+				cat_name:"Backgrounds",
+				chkBackground:true,
+				chkAfterEffects:false,
+				chkPremierPro:false,
+				chkLogo:false,
+				chkTitle:false,
+				chkTransitions:false,
+				chkLower:false,
+				chkElement:false
 			})
 		}
 
 		// alert(cat_id);
-		ProductDataService.findByTitle(cat_id)
+	ProductDataService.findByTitle(cat_id)
       .then(response => {
 		
 			this.tutorials= response.data.templates;
@@ -126,7 +196,7 @@ class ProductCategory extends Component {
 						this.state.tutorials.map( item => {
 							return (
 							<div key={item.id} className="all-isotope-item col-lg-4 col-sm-6 cat-1 cat-2">
-							{/* <div className="thumb"> */}
+							<div className="thumb">
 								<a className="gallery-fancybox" href="#">
 								<video width="285" height="200" controls >
 								<source src="../../public/assets/vedio/movie.mp4" type="video/mp4"/>
@@ -138,7 +208,7 @@ class ProductCategory extends Component {
 								<span className="price">{this.state.cat_name}</span>
 								<div>{item.name}</div>
 								</div>
-							{/* </div> */}
+							</div>
 							{/* {item.photos.map(photo => {
 								return(
 									<div className="item-details">
@@ -265,12 +335,12 @@ class ProductCategory extends Component {
 					  <div className="widget widget-category widget-border">
 			            <h5 className="widget-title">Category</h5>
 			            <ul>
-			              <li><input type="checkbox" checked={this.state.chkPremierPro} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="logo" name="logo" value="logo"/><Link to="/product" style={{paddingLeft:'15px'}}>Logo</Link></li>
-			              <li><input type="checkbox" checked={this.state.chkPremierPro} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="title" name="title" value="title"/><Link to="/product" style={{paddingLeft:'15px'}}>Titles</Link></li>
-						  <li><input type="checkbox" checked={this.state.chkPremierPro} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="transition" name="transition" value="transition"/><Link to="/product" style={{paddingLeft:'15px'}}>Transitions</Link></li>
-						  <li><input type="checkbox" checked={this.state.chkPremierPro} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="lower" name="lower" value="lower"/><Link to="/product" style={{paddingLeft:'15px'}}>Lower Thirds</Link></li>
-						  <li><input type="checkbox" checked={this.state.chkPremierPro} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="element" name="element" value="element"/><Link to="/product" style={{paddingLeft:'15px'}}>Elements</Link></li>
-						  <li><input type="checkbox" checked={this.state.chkPremierPro} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="background" name="background" value="background"/><Link to="/product" style={{paddingLeft:'15px'}}>Backgrounds</Link></li>
+			              <li><input type="checkbox" checked={this.state.chkLogo} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="logo" name="logo" value="logo"/><Link to="/product" style={{paddingLeft:'15px'}}>Logo</Link></li>
+			              <li><input type="checkbox" checked={this.state.chkTitle} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="title" name="title" value="title"/><Link to="/product" style={{paddingLeft:'15px'}}>Titles</Link></li>
+						  <li><input type="checkbox" checked={this.state.chkTransitions} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="transition" name="transition" value="transition"/><Link to="/product" style={{paddingLeft:'15px'}}>Transitions</Link></li>
+						  <li><input type="checkbox" checked={this.state.chkLower} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="lower" name="lower" value="lower"/><Link to="/product" style={{paddingLeft:'15px'}}>Lower Thirds</Link></li>
+						  <li><input type="checkbox" checked={this.state.chkElement} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="element" name="element" value="element"/><Link to="/product" style={{paddingLeft:'15px'}}>Elements</Link></li>
+						  <li><input type="checkbox" checked={this.state.chkBackground} onChange={this.handleInputChange} style={{width:'20px',height:'20px'}} id="background" name="background" value="background"/><Link to="/product" style={{paddingLeft:'15px'}}>Backgrounds</Link></li>
 			            </ul>
 			          </div>
 					  <div className="widget widget-product-sorting widget-border">
