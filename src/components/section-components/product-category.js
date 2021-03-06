@@ -17,6 +17,7 @@ class ProductCategory extends Component {
 			chkBackground:false,
 		  	numberOfGuests: 2,
 		  	tutorials: [],
+			template:[],
 			currentTutorial: null,
 			currentIndex: -1,
 			searchTitle: "",
@@ -161,6 +162,21 @@ class ProductCategory extends Component {
       .catch(e => {
         console.log(e);
       });
+
+	  ProductDataService.getAll()
+      .then(response => {
+		
+			this.template= response.data.templates;
+			console.log(this.template);
+			this.setState({
+				template: response.data.templates
+			});
+
+        console.log(this.template);
+      })
+      .catch(e => {
+        console.log(e);
+      });
 	
 		this.setState({
 		  [name]: value
@@ -196,10 +212,10 @@ class ProductCategory extends Component {
 						this.state.tutorials.map( item => {
 							return (
 							<div key={item.id} className="all-isotope-item col-lg-4 col-sm-6 cat-1 cat-2">
-							<div className="thumb">
+							{/* <div className="thumb"> */}
 								<a className="gallery-fancybox" href="#">
-								<video width="285" height="200" controls >
-								<source src="../../public/assets/vedio/movie.mp4" type="video/mp4"/>
+								<video width="285" height="200" controls loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+								<source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4"/>
 								</video>
 								{/* <img src={publicUrl+"assets/img/item/1.png"} alt="image" /> */}
 								</a>
@@ -208,7 +224,7 @@ class ProductCategory extends Component {
 								<span className="price">{this.state.cat_name}</span>
 								<div>{item.name}</div>
 								</div>
-							</div>
+							{/* </div> */}
 							{/* {item.photos.map(photo => {
 								return(
 									<div className="item-details">

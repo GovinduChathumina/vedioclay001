@@ -1815,11 +1815,12 @@ ul {
 }
 .navbar-area .nav-container {
   background-color: transparent;
-  padding: 29px 12px;
-  transition: all 0.4s;
-  position:fixed;
-  margin-top: 90px;
-  margin-left: 100px;
+  #padding: 29px 12px;
+  #transition: all 0.4s;
+  position:relative;
+  #margin-top: 90px;
+  #margin-right: 50px;
+  text-align: center;
 }
 .navbar-area .nav-container .logo a {
   display: inline-block;
@@ -2292,7 +2293,7 @@ ul {
   }
 
   .navbar-area .nav-container {
-    position: relative;
+    position: fixed;
     z-index: 0;
   }
   .navbar-area .nav-container .navbar-toggler {
@@ -2703,7 +2704,7 @@ ul {
 .all-isotope-item .item-details {
   box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05);
   border-radius: 0 0 10px 10px;
-  padding: 25px 28px 22px;
+  padding: 15px 15px 10px;
 }
 .all-isotope-item .item-details .price {
   border-radius: 5px;
